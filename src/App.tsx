@@ -5,7 +5,7 @@ import ChatArea from './components/ChatArea';
 import Login from './components/Login';
 import type { User } from './types';
 
-const GOOGLE_CLIENT_ID = ''; // Add your Google Client ID here
+const GOOGLE_CLIENT_ID = '200038965664-vm246g8139a1rimu262h4asvnppdee2n.apps.googleusercontent.com'; // Add your Google Client ID here
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
